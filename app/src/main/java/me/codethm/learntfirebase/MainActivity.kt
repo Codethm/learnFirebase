@@ -3,22 +3,18 @@ package me.codethm.learntfirebase
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-
-
-
-
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private var mAuth: FirebaseAuth? = null
-    private var mAuthListener: FirebaseAuth.AuthStateListener? = null
+    /*private var mAuth: FirebaseAuth? = null
+    private var mAuthListener: FirebaseAuth.AuthStateListener? = null*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mAuth = FirebaseAuth.getInstance()
+        /*mAuth = FirebaseAuth.getInstance()
 
         mAuthListener = FirebaseAuth.AuthStateListener { firebaseAuth ->
             val user = firebaseAuth.currentUser
@@ -28,11 +24,11 @@ class MainActivity : AppCompatActivity() {
                 // User is signed out
             }
             // ...
-        }
+        }*/
         // ...
     }
 
-    public override fun onStart() {
+    /*public override fun onStart() {
         super.onStart()
         mAuth?.addAuthStateListener(mAuthListener!!)
     }
@@ -42,5 +38,5 @@ class MainActivity : AppCompatActivity() {
         if (mAuthListener != null) {
             mAuth?.removeAuthStateListener(mAuthListener!!)
         }
-    }
+    }*/
 }
