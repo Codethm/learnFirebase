@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "1094842056699-e2cslob37akdf0cskafup9ei5spsl4aq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.codethm.learntfirebase",
+            "certificate_hash": "e8b9cb1fe61a5677998b973a9724cf4c436c71a9"
+          }
+        },
+        {
           "client_id": "1094842056699-9i7059amtu6arf4jqnr63nnkp4blgupa.apps.googleusercontent.com",
           "client_type": 3
         }
